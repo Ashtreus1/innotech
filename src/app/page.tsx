@@ -5,7 +5,6 @@ import Footer from "@/components/footer";
 import ProjectShowcase from "@/components/ProjectShowcase";
 import Process from "@/components/Process";
 import MeetTheTeam from "@/components/MeetTheTeam";
-import { CTA1 } from "@/components/CallToAction";
 import { CTA2 } from "@/components/CallToActionForm";
 import CTASocials1 from "@/components/CallToActionSocials";
 
