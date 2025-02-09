@@ -9,17 +9,17 @@ interface Reasons {
 export const reasons: Reasons[] = [
     {
         icon: 'Handshake',
-        title: "Customization",
-        description: "We offer tailored solutions to fit each client's unique needs",
+        title: "Custom Solutions",
+        description: "We build websites exactly how you want them, designed to fit your vision and needs.",
     },
     {
         icon: 'HandCoins',
-        title: "Affordability",
-        description: "Provide affordable and competitive pricing with flexible packages",
+        title: "Affordable Pricing",
+        description: "Get high-quality web solutions at competitive rates with flexible pricing options.",
     },
     {
         icon: 'Star',
-        title: "Exceptional Support",
-        description: "Implement optimize and secure services, along with excellent support and maintenance services"
+        title: "Reliable Support",
+        description: "We provide ongoing maintenance and support to keep your website secure and optimized.",
     }
-]
+];

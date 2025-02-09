@@ -12,9 +12,14 @@ export default function ProjectShowcase() {
 
     return (
         <div className="flex flex-col max-w-7xl px-4 mx-auto my-12">
-            <h1 className="text-5xl font-fjalla">
-                Selected <em className="text-cyan-400">Works</em>
-            </h1>
+            <div className="space-y-4 mb-4">
+                <p className="text-xl font-fjalla text-sky-500 ">
+                    Work that counts.
+                </p>
+                <h1 className="text-5xl font-fjalla max-w-3xl">
+                    We help individuals and businesses build websites that <span className="text-sky-500" >work</span>.
+                </h1>
+            </div>
 
             <div className="flex flex-wrap items-center my-4 gap-4">
                 {projects.map((project, index) => (

@@ -119,7 +119,7 @@ function Cards({
 						))}
 					</div>
 
-					<Button asChild size="lg" className={`w-full ${isPopular ? "bg-sky-400 hover:bg-sky-600" : "bg-sky-400 hover:bg-sky-600"}`}>
+					<Button asChild size="lg" className={`w-full ${isPopular ? "bg-sky-500 hover:bg-sky-600" : "bg-sky-500 hover:bg-sky-600"}`}>
 						<Link href="/contact">
 							Get Started
 							<ArrowRightIcon className="w-4 h-4 ml-2" />

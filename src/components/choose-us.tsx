@@ -12,11 +12,11 @@ export default function WhyChooseUs() {
 
     return (
         <div className="relative flex flex-col justify-center items-center my-12 min-h-[80vh]">
-            <p className="text-md font-semibold  text-center">
-                Why Choose Our
+            <p className="text-xl font-semibold text-center">
+                Why you{"'"}ll love our
             </p>
-            <h1 className="text-5xl font-bold text-cyan-400 mt-3 uppercase text-center">
-                Services
+            <h1 className="text-5xl font-bold text-cyan-500 mt-3 uppercase text-center">
+                SERVICES
             </h1>
             <div className="flex flex-wrap justify-center items-center mt-5 gap-5">
                 {reasons.map((reason, index) => {
@@ -33,6 +33,7 @@ export default function WhyChooseUs() {
                                    h-64
                                    cursor-pointer
                                    hover:scale-105
+                                   bg-[#242424]
                                    hover:bg-[#1e1e1e]
                                    transition-all"
                         >
