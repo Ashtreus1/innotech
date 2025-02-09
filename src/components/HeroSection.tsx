@@ -15,15 +15,24 @@ export default function HeroSection() {
             />
             <div className=" flex justify-center items-center flex-col">
                 <div className="flex flex-col gap-8 mb-8">
-                    <h1 className="text-6xl relative z-10 text-center font-fjalla">
-                        Building Websites.
-                        <br /> Innovating{" "}
-                        <span className="text-sky-400">Solutions</span>.
+                    <h1 className="text-6xl relative z-10 text-left font-fjalla max-w-lg flex flex-col gap-4">
+                        <div className="flex gap-2">
+                            <span>Building</span>
+                            <span>Websites</span>
+                        </div>
+                        <div className="flex gap-2">
+                            <span>Innovating</span>
+                            <span className="text-sky-500">Solutions</span>.
+                        </div>
                     </h1>
-                    <p className="text-white text-center"></p>
+                    <p className="text-neutral-200 text-lg text-left max-w-lg">
+                        We craft innovative and functional web and mobile
+                        solutions that drive impact for businesses and
+                        individuals.
+                    </p>
                 </div>
 
-                <div className="flex flex-row gap-4">
+                <div className="flex flex-row gap-4 flex-start self-start">
                     <InteractiveHoverButton>Works</InteractiveHoverButton>
                     <InteractiveHoverButton>Services</InteractiveHoverButton>
                 </div>

@@ -106,11 +106,10 @@ export default function Footer() {
                 <div className="flex justify-between items-start gap-8">
                     <div className="flex flex-col space-y-3">
                         <Image
-                            src="/innotech_transparent.png"
-                            width={0}
-                            height={0}
+                            src="/whiteinnotech_transparent.svg"
+                            width={35}
+                            height={35}
                             alt="Innotech Icon"
-                            className="w-14 h-14"
                         />
                         <div className="md:w-1/2 space-y-4">
                             <h1 className="font-bold font-fjalla text-3xl leading-tight">

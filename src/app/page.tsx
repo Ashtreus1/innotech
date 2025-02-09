@@ -6,6 +6,8 @@ import ProjectShowcase from "@/components/ProjectShowcase";
 import Process from "@/components/Process";
 import MeetTheTeam from "@/components/MeetTheTeam";
 import { CTA1 } from "@/components/CallToAction";
+import { CTA2 } from "@/components/CallToActionForm";
+import CTASocials1 from "@/components/CallToActionSocials";
 
 
 export default function Home() {
@@ -27,7 +29,12 @@ export default function Home() {
             <MeetTheTeam/>
 
 			<Pricing />
-            <CTA1/>
+            <div className="bg-[#121212]">
+                <CTA2/>
+
+            </div>
+            <CTASocials1/>
+
             <Footer/>
         </div>
     );

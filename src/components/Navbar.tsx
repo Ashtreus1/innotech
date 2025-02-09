@@ -1,6 +1,6 @@
 "use client";
 
-import { Briefcase } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import Image from "next/image";
 import React, { useEffect, useState } from "react";
 import { Button } from "./ui/button";
@@ -30,30 +30,26 @@ export default function Navbar() {
     }, []);
 
     return (
-        <div className="fixed top-0 left-1/2 -translate-x-1/2 z-10">
+        <div className="fixed top-0 left-1/2 -translate-x-1/2 z-20">
             <motion.div
                 className="flex px-8 py-2 my-2 bg-opacity-50 rounded-full bg-neutral-800 flex-row items-center gap-12"
                 initial={{ y: 0 }}
                 animate={{ y: scrollDirection === "down" ? "-100%" : "0%" }}
-                transition={{ duration: 0.3, ease: "easeInOut" }}
+                transition={{ duration: 0.3, ease: "easeInOut", delay: 0.5 }}
             >
-                <Link href="#hero">
+                <Link href="/">
                     <Image
                         className="m-2 relative hover:opacity-50 transition"
                         alt="icon"
-                        height={25}
-                        width={25}
-                        src="/innotech_transparent.png"
+                        height={28}
+                        width={28}
+                        src="/whiteinnotech_transparent.svg"
                     />
                 </Link>
-                <Briefcase
-                    className="cursor-pointer transition hover:opacity-50"
-                    color="white"
-                    size={25}
-                />
-                <Button className="bg-sky-400 hover:bg-sky-700 cursor-pointer p-4 rounded-full text-sm py-4">
-                    <Link href="/contact-form" className="text-black">
+                <Button className="bg-sky-500 hover:bg-sky-700 cursor-pointer p-5 rounded-full shadow-lg">
+                    <Link href="/contact" className="group text-white flex gap-2 items-center justify-center font-bold text-base tracking-wide">
                         Let&apos;s talk
+                        <ArrowRight className="transition-transform group-hover:translate-x-2" />
                     </Link>
                 </Button>
             </motion.div>
