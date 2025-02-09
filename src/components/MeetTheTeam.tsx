@@ -28,8 +28,8 @@ export default function MeetTheTeam() {
 
 	return (
 		<div className="max-w-7xl min-h-screen flex flex-col justify-center items-center mx-auto px-4">
-			<h1 className="text-5xl font-bold mt-8 text-center">Our Team of Experts</h1>
-			<p className="text-lg text-gray-600 text-center max-w-2xl mb-8">Meet the passionate individuals behind our success.</p>
+			<h1 className="text-5xl font-bold mt-8 text-center">Our Team of <span className="text-sky-500">Experts</span></h1>
+			<p className="text-lg text-neutral-400 text-center max-w-2xl mb-8">Meet the passionate individuals behind our success.</p>
 
 			<Carousel className="w-full">
 				<CarouselContent className="">

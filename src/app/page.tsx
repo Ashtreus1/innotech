@@ -9,33 +9,35 @@ import { CTA1 } from "@/components/CallToAction";
 import { CTA2 } from "@/components/CallToActionForm";
 import CTASocials1 from "@/components/CallToActionSocials";
 
-
 export default function Home() {
-	return (
-		<div>
-			<HeroSection />
+    return (
+        <div>
+            <HeroSection />
 
-			<ProjectShowcase />
+            <div id="works">
+                <ProjectShowcase />
+            </div>
 
-			<WhyChooseUs />
+            <div id="services">
+                <WhyChooseUs />
+            </div>
 
-			{/* TODO: (add if may testimonials na) */}
-			{/* <div className="max-w-7xl h-screen mx-auto">
+            {/* TODO: (add if may testimonials na) */}
+            {/* <div className="max-w-7xl h-screen mx-auto">
                 <Testimonials/>
             </div> */}
 
-			<Process />
+            <Process />
             {/* Meet the team */}
-            <MeetTheTeam/>
+            <MeetTheTeam />
 
-			<Pricing />
+            <Pricing />
             <div className="bg-[#121212]">
-                <CTA2/>
-
+                <CTA2 />
             </div>
-            <CTASocials1/>
+            <CTASocials1 />
 
-            <Footer/>
+            <Footer />
         </div>
     );
 }

@@ -9,7 +9,7 @@ export default function Process() {
 				<div className=" grid md:grid-cols-5 grid-rows-1 gap-4 relative">
 					<div className="text-center md:col-span-3 sm:text-left flex flex-col gap-6 justify-between justify-self-end max-w-lg">
 						<span className="text-xl sm:text-3xl">Process</span>
-						<h1 className="text-4xl sm:text-6xl text-cyan-400">How We Deliver Our Services</h1>
+						<h1 className="text-4xl sm:text-6xl text-cyan-400 font-bold">How We Deliver Our Services</h1>
 						<p className=" text-justify text-base">
 							From planning to launch, we craft high-quality, responsive websites tailored to your needs. Our process ensures a smooth,
 							efficient experience, delivering a professional online presence for your brand.
