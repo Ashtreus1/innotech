@@ -147,7 +147,7 @@ export const CTA2 = () => {
 
                         <Button
                             type="submit"
-                            className="w-full bg-sky-400 hover:bg-sky-500 h-16 text-lg font-bold"
+                            className="w-full bg-sky-400 hover:bg-sky-500 h-16 text-lg font-bold text-white"
                         >
                             Send Message
                         </Button>
