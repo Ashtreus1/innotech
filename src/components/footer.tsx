@@ -79,19 +79,19 @@ export default function Footer() {
 
                     <div className="flex space-x-4 mt-4 md:mt-0">
                         <a
-                            href="#"
+                            href="https://www.facebook.com/innotechdev/"
                             className="hover:text-cyan-400 transition-colors"
                         >
                             Facebook
                         </a>
                         <a
-                            href="#"
+                            href="https://www.instagram.com/official.innotech"
                             className="hover:text-cyan-400 transition-colors"
                         >
                             Instagram
                         </a>
                         <a
-                            href="#"
+                            href="https://www.tiktok.com/@innotechdev"
                             className="hover:text-cyan-400 transition-colors"
                         >
                             Tiktok
@@ -166,19 +166,19 @@ export default function Footer() {
 
                     <div className="flex space-x-4 mt-4 md:mt-0">
                         <a
-                            href="#"
+                            href="https://www.facebook.com/innotechdev/"
                             className="hover:text-white transition-colors"
                         >
                             Facebook
                         </a>
                         <a
-                            href="#"
+                            href="https://www.instagram.com/official.innotech"
                             className="hover:text-white transition-colors"
                         >
                             Instagram
                         </a>
                         <a
-                            href="#"
+                            href="https://www.tiktok.com/@innotechdev"
                             className="hover:text-white transition-colors"
                         >
                             Tiktok
