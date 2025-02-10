@@ -6,6 +6,13 @@ export const projects = [
         image: "https://i.imgur.com/XAPKNRh.jpeg",
         link: ""
     },
+    {
+        name: "Kofi",
+        tags: ["react", "tailwind"],
+        hoverImage: "/projects/project-video/coffee-website.mp4",
+        image: "/projects/coffee-website.png",
+        link: ""
+    }
 ];
 
 
