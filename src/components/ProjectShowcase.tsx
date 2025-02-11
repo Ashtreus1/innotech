@@ -17,17 +17,14 @@ export default function ProjectShowcase() {
                     Work that counts.
                 </p>
                 <h1 className="text-5xl font-fjalla max-w-3xl">
-                    We help individuals and businesses build websites that <span className="text-sky-500" >work</span>.
+                    We help individuals and businesses build websites that{" "}
+                    <span className="text-sky-500">work</span>.
                 </h1>
             </div>
 
-            <div className="flex flex-wrap items-center my-4 gap-4">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 {projects.map((project, index) => (
-                    <Link
-                        href={project.link}
-                        key={index}
-                        className="w-full md:w-1/2"
-                    >
+                    <Link href={project.link} key={index} className="w-full">
                         <div
                             className={cn(
                                 "group cursor-pointer overflow-hidden relative card h-96 rounded-md shadow-xl flex flex-col justify-end p-4 border border-transparent dark:border-neutral-800",
@@ -60,9 +57,9 @@ export default function ProjectShowcase() {
                                     ></div>
                                 )
                             )}
-                            <div className="px-8 py-2 text relative z-50 backdrop-blur-lg backdrop-saturate-150 border rounded-lg border-black/5">
+                            <div className="px-8 py-2 text relative z-50 backdrop-blur-lg backdrop-saturate-150 border rounded-lg border-black/10">
                                 <div className="flex flex-row justify-between items-center">
-                                    <h1 className="font-semibold font-fjalla text-sm md:text-base text-cyan-400 relative">
+                                    <h1 className="font-semibold font-fjalla text-sm md:text-base text-white relative">
                                         {project.name}
                                     </h1>
                                     <div className="flex space-x-2">

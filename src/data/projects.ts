@@ -1,9 +1,16 @@
 export const projects = [
     {
+        name: "Pompadour Barbershop",
+        tags: ["react", "tailwind"],
+        hoverImage: "/projects/project-video/barber-website.mp4",
+        image: "/projects/barber-website.png",
+        link: ""
+    },
+    {
         name: "Real estate",
-        tags: ["react", "supabase"],
+        tags: ["react", "tailwind"],
         hoverImage: "https://i.imgur.com/Ckr6u7Y.mp4",
-        image: "https://i.imgur.com/XAPKNRh.jpeg",
+        image: "/projects/realestate-website.png",
         link: ""
     },
     {
